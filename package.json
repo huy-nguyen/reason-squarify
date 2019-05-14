@@ -1,6 +1,7 @@
 {
   "name": "reason-squarify",
   "version": "0.1.0",
+  "description": "ReasonML implementation of Bruls et al.'s squarified tree map algorithm",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
@@ -9,9 +10,14 @@
     "test": "jest --verbose --coverage"
   },
   "keywords": [
-    "BuckleScript"
+    "BuckleScript",
+    "ReasonML",
+    "squarify",
+    "squarified",
+    "tree",
+    "map"
   ],
-  "author": "",
+  "author": "Huy Nguyen <me@huy.dev> (https://www.huy.dev/)",
   "license": "MIT",
   "devDependencies": {
     "@glennsl/bs-jest": "0.4.8",
