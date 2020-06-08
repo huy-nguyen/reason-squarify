@@ -1,5 +1,7 @@
 # reason-squarify
 
+![Build and test](https://github.com/huy-nguyen/reason-squarify/workflows/Build%20and%20test/badge.svg?branch=master)
+
 This is an implementation of the squarified tree map algorithm in [ReasonML](https://reasonml.github.io/).
 
 The main code is in [this file](src/Squarify.re).
