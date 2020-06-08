@@ -1,9 +1,9 @@
-name: Test
+name: Build and test
 on: [push]
 
 jobs:
   build_test_deploy:
-    name: Build, test and deploy
+    name: Build and test
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout code
@@ -29,6 +29,8 @@ jobs:
 
       - name: Install dependencies
         run: yarn --frozen-lockfile
+      - name: Build
+        run: yarn build
       - name: Run unit tests
         run: yarn run test
 
